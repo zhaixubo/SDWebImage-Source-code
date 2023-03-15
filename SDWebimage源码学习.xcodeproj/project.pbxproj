@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587C3FA629C1C29200E49C3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C3FA529C1C29200E49C3E /* AppDelegate.m */; };
+		587C3FA929C1C29200E49C3E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C3FA829C1C29200E49C3E /* SceneDelegate.m */; };
+		587C3FAC29C1C29200E49C3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C3FAB29C1C29200E49C3E /* ViewController.m */; };
+		587C3FAF29C1C29200E49C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587C3FAD29C1C29200E49C3E /* Main.storyboard */; };
+		587C3FB129C1C29400E49C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587C3FB029C1C29400E49C3E /* Assets.xcassets */; };
+		587C3FB429C1C29400E49C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587C3FB229C1C29400E49C3E /* LaunchScreen.storyboard */; };
+		587C3FB729C1C29400E49C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C3FB629C1C29400E49C3E /* main.m */; };
+		587C3FC129C1C29400E49C3E /* SDWebimage____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C3FC029C1C29400E49C3E /* SDWebimage____Tests.m */; };
+		587C3FCB29C1C29400E49C3E /* SDWebimage____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C3FCA29C1C29400E49C3E /* SDWebimage____UITests.m */; };
+		587C3FCD29C1C29400E49C3E /* SDWebimage____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C3FCC29C1C29400E49C3E /* SDWebimage____UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		587C3FBD29C1C29400E49C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587C3F9929C1C29200E49C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587C3FA029C1C29200E49C3E;
+			remoteInfo = "SDWebimage源码学习";
+		};
+		587C3FC729C1C29400E49C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587C3F9929C1C29200E49C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587C3FA029C1C29200E49C3E;
+			remoteInfo = "SDWebimage源码学习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		587C3FA129C1C29200E49C3E /* SDWebimage源码学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDWebimage源码学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587C3FA429C1C29200E49C3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		587C3FA529C1C29200E49C3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		587C3FA729C1C29200E49C3E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		587C3FA829C1C29200E49C3E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		587C3FAA29C1C29200E49C3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		587C3FAB29C1C29200E49C3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		587C3FAE29C1C29200E49C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		587C3FB029C1C29400E49C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		587C3FB329C1C29400E49C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		587C3FB529C1C29400E49C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587C3FB629C1C29400E49C3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		587C3FBC29C1C29400E49C3E /* SDWebimage源码学习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDWebimage源码学习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587C3FC029C1C29400E49C3E /* SDWebimage____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDWebimage____Tests.m"; sourceTree = "<group>"; };
+		587C3FC629C1C29400E49C3E /* SDWebimage源码学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDWebimage源码学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587C3FCA29C1C29400E49C3E /* SDWebimage____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDWebimage____UITests.m"; sourceTree = "<group>"; };
+		587C3FCC29C1C29400E49C3E /* SDWebimage____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDWebimage____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587C3F9E29C1C29200E49C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587C3FB929C1C29400E49C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587C3FC329C1C29400E49C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587C3F9829C1C29200E49C3E = {
+			isa = PBXGroup;
+			children = (
+				587C3FA329C1C29200E49C3E /* SDWebimage源码学习 */,
+				587C3FBF29C1C29400E49C3E /* SDWebimage源码学习Tests */,
+				587C3FC929C1C29400E49C3E /* SDWebimage源码学习UITests */,
+				587C3FA229C1C29200E49C3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587C3FA229C1C29200E49C3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587C3FA129C1C29200E49C3E /* SDWebimage源码学习.app */,
+				587C3FBC29C1C29400E49C3E /* SDWebimage源码学习Tests.xctest */,
+				587C3FC629C1C29400E49C3E /* SDWebimage源码学习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587C3FA329C1C29200E49C3E /* SDWebimage源码学习 */ = {
+			isa = PBXGroup;
+			children = (
+				587C3FA429C1C29200E49C3E /* AppDelegate.h */,
+				587C3FA529C1C29200E49C3E /* AppDelegate.m */,
+				587C3FA729C1C29200E49C3E /* SceneDelegate.h */,
+				587C3FA829C1C29200E49C3E /* SceneDelegate.m */,
+				587C3FAA29C1C29200E49C3E /* ViewController.h */,
+				587C3FAB29C1C29200E49C3E /* ViewController.m */,
+				587C3FAD29C1C29200E49C3E /* Main.storyboard */,
+				587C3FB029C1C29400E49C3E /* Assets.xcassets */,
+				587C3FB229C1C29400E49C3E /* LaunchScreen.storyboard */,
+				587C3FB529C1C29400E49C3E /* Info.plist */,
+				587C3FB629C1C29400E49C3E /* main.m */,
+			);
+			path = "SDWebimage源码学习";
+			sourceTree = "<group>";
+		};
+		587C3FBF29C1C29400E49C3E /* SDWebimage源码学习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				587C3FC029C1C29400E49C3E /* SDWebimage____Tests.m */,
+			);
+			path = "SDWebimage源码学习Tests";
+			sourceTree = "<group>";
+		};
+		587C3FC929C1C29400E49C3E /* SDWebimage源码学习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				587C3FCA29C1C29400E49C3E /* SDWebimage____UITests.m */,
+				587C3FCC29C1C29400E49C3E /* SDWebimage____UITestsLaunchTests.m */,
+			);
+			path = "SDWebimage源码学习UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587C3FA029C1C29200E49C3E /* SDWebimage源码学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587C3FD029C1C29400E49C3E /* Build configuration list for PBXNativeTarget "SDWebimage源码学习" */;
+			buildPhases = (
+				587C3F9D29C1C29200E49C3E /* Sources */,
+				587C3F9E29C1C29200E49C3E /* Frameworks */,
+				587C3F9F29C1C29200E49C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebimage源码学习";
+			productName = "SDWebimage源码学习";
+			productReference = 587C3FA129C1C29200E49C3E /* SDWebimage源码学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		587C3FBB29C1C29400E49C3E /* SDWebimage源码学习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587C3FD329C1C29400E49C3E /* Build configuration list for PBXNativeTarget "SDWebimage源码学习Tests" */;
+			buildPhases = (
+				587C3FB829C1C29400E49C3E /* Sources */,
+				587C3FB929C1C29400E49C3E /* Frameworks */,
+				587C3FBA29C1C29400E49C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587C3FBE29C1C29400E49C3E /* PBXTargetDependency */,
+			);
+			name = "SDWebimage源码学习Tests";
+			productName = "SDWebimage源码学习Tests";
+			productReference = 587C3FBC29C1C29400E49C3E /* SDWebimage源码学习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		587C3FC529C1C29400E49C3E /* SDWebimage源码学习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587C3FD629C1C29400E49C3E /* Build configuration list for PBXNativeTarget "SDWebimage源码学习UITests" */;
+			buildPhases = (
+				587C3FC229C1C29400E49C3E /* Sources */,
+				587C3FC329C1C29400E49C3E /* Frameworks */,
+				587C3FC429C1C29400E49C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587C3FC829C1C29400E49C3E /* PBXTargetDependency */,
+			);
+			name = "SDWebimage源码学习UITests";
+			productName = "SDWebimage源码学习UITests";
+			productReference = 587C3FC629C1C29400E49C3E /* SDWebimage源码学习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587C3F9929C1C29200E49C3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					587C3FA029C1C29200E49C3E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					587C3FBB29C1C29400E49C3E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 587C3FA029C1C29200E49C3E;
+					};
+					587C3FC529C1C29400E49C3E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 587C3FA029C1C29200E49C3E;
+					};
+				};
+			};
+			buildConfigurationList = 587C3F9C29C1C29200E49C3E /* Build configuration list for PBXProject "SDWebimage源码学习" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587C3F9829C1C29200E49C3E;
+			productRefGroup = 587C3FA229C1C29200E49C3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587C3FA029C1C29200E49C3E /* SDWebimage源码学习 */,
+				587C3FBB29C1C29400E49C3E /* SDWebimage源码学习Tests */,
+				587C3FC529C1C29400E49C3E /* SDWebimage源码学习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		587C3F9F29C1C29200E49C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587C3FB429C1C29400E49C3E /* LaunchScreen.storyboard in Resources */,
+				587C3FB129C1C29400E49C3E /* Assets.xcassets in Resources */,
+				587C3FAF29C1C29200E49C3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587C3FBA29C1C29400E49C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587C3FC429C1C29400E49C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587C3F9D29C1C29200E49C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587C3FAC29C1C29200E49C3E /* ViewController.m in Sources */,
+				587C3FA629C1C29200E49C3E /* AppDelegate.m in Sources */,
+				587C3FB729C1C29400E49C3E /* main.m in Sources */,
+				587C3FA929C1C29200E49C3E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587C3FB829C1C29400E49C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587C3FC129C1C29400E49C3E /* SDWebimage____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587C3FC229C1C29400E49C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587C3FCD29C1C29400E49C3E /* SDWebimage____UITestsLaunchTests.m in Sources */,
+				587C3FCB29C1C29400E49C3E /* SDWebimage____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		587C3FBE29C1C29400E49C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 587C3FA029C1C29200E49C3E /* SDWebimage源码学习 */;
+			targetProxy = 587C3FBD29C1C29400E49C3E /* PBXContainerItemProxy */;
+		};
+		587C3FC829C1C29400E49C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 587C3FA029C1C29200E49C3E /* SDWebimage源码学习 */;
+			targetProxy = 587C3FC729C1C29400E49C3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		587C3FAD29C1C29200E49C3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587C3FAE29C1C29200E49C3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		587C3FB229C1C29400E49C3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587C3FB329C1C29400E49C3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587C3FCE29C1C29400E49C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		587C3FCF29C1C29400E49C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587C3FD129C1C29400E49C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K97J7XJC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SDWebimage源码学习/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SDWebimage----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		587C3FD229C1C29400E49C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K97J7XJC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SDWebimage源码学习/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SDWebimage----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		587C3FD429C1C29400E49C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K97J7XJC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SDWebimage----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDWebimage源码学习.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SDWebimage源码学习";
+			};
+			name = Debug;
+		};
+		587C3FD529C1C29400E49C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K97J7XJC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SDWebimage----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDWebimage源码学习.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SDWebimage源码学习";
+			};
+			name = Release;
+		};
+		587C3FD729C1C29400E49C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K97J7XJC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SDWebimage----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SDWebimage源码学习";
+			};
+			name = Debug;
+		};
+		587C3FD829C1C29400E49C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K97J7XJC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SDWebimage----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SDWebimage源码学习";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587C3F9C29C1C29200E49C3E /* Build configuration list for PBXProject "SDWebimage源码学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587C3FCE29C1C29400E49C3E /* Debug */,
+				587C3FCF29C1C29400E49C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587C3FD029C1C29400E49C3E /* Build configuration list for PBXNativeTarget "SDWebimage源码学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587C3FD129C1C29400E49C3E /* Debug */,
+				587C3FD229C1C29400E49C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587C3FD329C1C29400E49C3E /* Build configuration list for PBXNativeTarget "SDWebimage源码学习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587C3FD429C1C29400E49C3E /* Debug */,
+				587C3FD529C1C29400E49C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587C3FD629C1C29400E49C3E /* Build configuration list for PBXNativeTarget "SDWebimage源码学习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587C3FD729C1C29400E49C3E /* Debug */,
+				587C3FD829C1C29400E49C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587C3F9929C1C29200E49C3E /* Project object */;
+}
